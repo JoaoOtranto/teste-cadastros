@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Última versão CSS compilada e minificada -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <title>Cadastro de participantes</title>
+</head>
+<body>
+    <div class="formulario">
+        <form class="container">
+            <!--Input nome-->
+            <div class="form-group">
+              <label for="formName">Nome</label>
+              <input type="text" class="form-control" id="formName" placeholder="Nome Sobrenome">
+            </div>
+            <!--Fim Input nome-->
+    
+            <!--Input Email-->
+            <div class="form-group">
+              <label for="formEmail">E-mail</label>
+              <input type="email" class="form-control" id="formEmail" placeholder="email@xyz.com.br">
+            </div>
+            <!--Fim Input Email-->
+    
+            <!--Input Cargo-->
+            <div class="form-group">
+                <label for="inputCs">Nível CS</label>
+                <select id="inputCs" class="form-control">
+                <option selected>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+                </select>
+            </div>
+            <!--Fim Input Cargo-->
+            <div class="form-group">
+                <label for="formFoto">Foto</label>
+                <p>Insira aqui o link da sua foto de perfil no Slack</p>
+                <input type="url" class="form-control" id="formFoto" placeholder="foto">
+            </div>
+            <!--Input foto-->
+    
+            <button type="submit" class="btn btn-success">Finalizar</button>
+          </form>
+    </div>
+    <!-- Última versão JavaScript compilada e minificada -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</body>
+</html>
